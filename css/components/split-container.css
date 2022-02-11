@@ -2,21 +2,29 @@
 .container {
   display: grid;
   margin: 0 auto;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .container h2 {
   text-align: center;
   padding: 0.25em 0.25em 0.25em;
-  font-size: 64px;
+  font-size: 36px;
   margin: 25px 0em 25px 0em;
+
 }
 
 .left-half {
   background: white;
   grid-column: 1;
+  margin-right: 100px;
 }
 
 .right-half {
   background: white;
   grid-column: 2;
+}
+
+.split-container p {
+  display: block;
 }
