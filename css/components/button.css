@@ -1,0 +1,15 @@
+.btn-yours {
+  color: white;
+  padding: 20px 60px;
+  background-color: black;
+  border-radius: 50px;
+  font-weight: lighter;
+  font-family: "Helvetica Neue",
+}
+
+.btn-yours:hover {
+  opacity: 0.88;
+  background: black;
+  text-decoration: none;
+  color: white;
+}
